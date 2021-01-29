@@ -1,0 +1,144 @@
+Welcome to the command shell...now with memory!
+[DEC] r[0]: 0
+> loadi 3
+[DEC] r[0]: 3
+> loadi 2
+[DEC] r[0]: 2
+> loadi 1
+[DEC] r[0]: 1
+> storm 1
+[DEC] r[0]: 2
+> storm 2
+[DEC] r[0]: 3
+> storm 3
+[DEC] r[0]: 0
+> run ../testrun.txt
+=====================
+RUN - starting to read from file: ../testrun.txt
+=====================
+[DEC] r[0]: 0
+RUN> loadm 1
+[DEC] r[0]: 1
+RUN> loadm 2
+[DEC] r[0]: 2
+RUN> add 2
+[DEC] r[0]: 3
+RUN> loadm 1
+[DEC] r[0]: 1
+RUN> loadm 3
+[DEC] r[0]: 3
+RUN> sub 3
+[DEC] r[0]: -2
+RUN> mul
+[DEC] r[0]: -6
+RUN> inc
+[DEC] r[0]: -5
+RUN> EOF
+====================
+RUN - end reading of file
+====================
+NOP
+[DEC] r[0]: -5
+> exit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0
+
+Another run:
+
+Welcome to the command shell...now with memory!
+[DEC] r[0]: 0
+> loadi 4
+[DEC] r[0]: 4
+> loadi 4
+[DEC] r[0]: 4
+> clrrs
+[DEC] r[0]: 0
+> loadi 4
+[DEC] r[0]: 4
+> loadi 5
+[DEC] r[0]: 5
+> loadi 10
+[DEC] r[0]: 10
+> storm 1
+[DEC] r[0]: 5
+> storm 2
+[DEC] r[0]: 4
+> storm 3
+[DEC] r[0]: 0
+> run ../extraCredit.txt
+=====================
+RUN - starting to read from file: ../extraCredit.txt
+=====================
+[DEC] r[0]: 0
+RUN> loadm 1
+[DEC] r[0]: 10
+RUN> loadm 2
+[DEC] r[0]: 5
+RUN> add 2
+[DEC] r[0]: 15
+RUN> loadm 1
+[DEC] r[0]: 10
+RUN> loadm 3
+[DEC] r[0]: 4
+RUN> sub 3
+[DEC] r[0]: 6
+RUN> mul
+[DEC] r[0]: 90
+RUN> inc
+[DEC] r[0]: 91
+RUN> EOF
+====================
+RUN - end reading of file
+====================
+NOP
+[DEC] r[0]: 91
+> exit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0
+
+
+Welcome to the command shell...now with memory!
+[DEC] r[0]: 0
+> loadi 5
+[DEC] r[0]: 5
+> loadi 10
+[DEC] r[0]: 10
+> run ../testrun.txt
+=====================
+RUN - starting to read from file: ../testrun.txt
+=====================
+[DEC] r[0]: 10
+RUN> echo hello
+hello
+[DEC] r[0]: 10
+RUN> Loadi 100
+[DEC] r[0]: 100
+RUN> prtrs 100
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 5
+[DEC] r[1]: 10
+[DEC] r[0]: 100
+--------------------
+[DEC] r[0]: 100
+RUN> EOF
+====================
+RUN - end reading of file
+====================
+NOP
+[DEC] r[0]: 100
+> quit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0
